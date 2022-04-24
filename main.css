@@ -1,0 +1,1857 @@
+
+/*index*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+
+header {
+    background-color: red;
+    background-position: center;
+    height: 200px;
+    box-shadow: 4px 4px 5px black;
+   
+    
+    
+
+   
+}
+
+
+h1 {
+    color: white;
+    height: 25vh;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-size: 100px;
+    text-shadow: 7px 5px 5px black;
+    height: 25vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: 100px;
+    font-style: italic;
+    
+   
+    
+    
+  
+}
+
+
+
+
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    border-style: solid;
+    padding: 8px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    border-color: red;
+    margin-top: 50px;
+ 
+    
+    
+
+    
+}
+
+    .secciones li {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    display: inline;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 25px;
+    
+    
+}
+
+.secciones {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+nav .secciones li a {
+    color: black;
+}
+
+
+
+
+
+
+.secciones li:hover {
+  background-color: red;
+    
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:bolder;
+
+}
+
+span {
+    color: red;
+}
+
+.video-di-maria {
+    float: left;
+    width: 500px;
+    margin-right: 50px;
+    margin-left: 20px;
+    border: solid black;
+} 
+
+.video-f1 {
+    float: right;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 20px;
+    border: solid black;
+    
+}
+
+.f1 {
+    float: left;
+    width: 800px;
+    margin-top: 100px;
+
+}
+
+.imagen-barty {
+    float: left;
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 20px;
+    border: solid black;
+
+}
+
+.barty {
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.imagen-aramburu {
+    float: right;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 20px;
+    border: solid black;
+
+}
+
+.aramburu {
+    margin-top: 170px;
+    
+}
+
+.mick {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.ashleigh {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.despedida-aramburu {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+
+
+button {
+    color: #FCD21D;
+    background-color: black;
+}
+
+
+/*seccion 3*/
+
+.tabla-de-posiciones {
+    color:  black;
+    background-color: white;
+    border:  black;
+    margin-left: 500px;
+    text-align: center;
+    
+}
+
+.tabla-de-posiciones-2 {
+    color: black;
+    background-color: white;
+    border: black;
+    margin-left: 500px;
+    text-align: center;
+    
+}
+
+.h2-tabla {
+    color: red;
+    border-style: none;
+    font-size: 80px;
+    background-image: none;
+    
+}
+
+.h2-primera-fase {
+    text-align: center;
+}
+
+.grupo-a {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grupo-b {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*seccion4*/
+
+
+
+.h2-seccion2-opinion {
+    border-style: none;
+    float: left;
+    background-image: none;
+
+}
+
+form {
+  margin-left: 500px;
+    
+}
+
+.text-area {
+    color: black;
+    background-color: red;
+    width: 800px;
+    border: solid black;
+       
+}
+
+.enlaces-redes ul li {
+    display: inline;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 170px;
+    
+    
+
+
+
+}
+
+.enlaces-redes ul li a {
+    color: white;
+}
+
+
+.enlaces-redes ul li :hover {
+background-color: black;
+
+
+}
+
+
+
+
+.img-redes img {
+    width: 100px;
+    display: inline;
+    
+    margin-left: 250px;
+}
+
+footer {
+ background-color: red;
+ border-style: solid;
+ border-color: black;
+}
+
+/*seccion2*/
+
+.contenedor-seccion2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+    width: 80%;
+    margin: 20px;
+
+}
+
+
+
+.contenedor-otras-noticias1 {
+    height: 450px;
+    background-color: red;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-top: 50px
+    
+    
+    
+}
+
+.contenedor-otras-noticias-img {
+    display: grid;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    
+    
+}
+
+.contenedor-otras-noticias-img img {
+    width: 250px;
+    height: 250px;
+    margin-top:  20px;
+    width: 400px;
+    border: solid black;
+    
+}
+    
+
+.contenedor-otras-noticias-texto {
+    display: flex;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+
+
+.contenedor-otras-noticias-texto p {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+
+.contenedor-otras-noticias2 {
+    
+    height: 450px;
+    background-color: red;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+    justify-content: space-between;
+    margin-top: 100px
+    
+    
+    
+    
+}
+
+
+.contenedor-otras-noticias-img-2 {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.contenedor-otras-noticias-img-2 img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    width: 400px;
+    border: solid black;
+
+    
+}
+
+
+.contenedor-otras-noticias-texto-2 {
+    display: flex;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+
+.contenedor-otras-noticias-texto-2 p {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-right: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+    
+
+    
+}
+
+.imagen-relleno {
+    width: 310px;
+}
+
+
+/*hay varios atributos que se repiten y no influyen porque ui probando varias cosas y quedaron*/
+
+@media screen and (min-width: 320px) {
+    h1 {
+       
+        font-size: 50px;
+    }
+    
+    .secciones li {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+       
+        }
+    
+     
+
+     h2 {
+      
+     
+        padding: 8px;
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 20px;
+        margin-top: 50px;
+      
+        }
+    
+    
+        .video-di-maria {
+            justify-content: center;
+            align-items: center;
+            float: left;
+            width: 310px;
+            margin-right: 0px;
+            margin-left: 0px;
+            
+            
+            
+        } 
+    }
+
+    p {
+      
+        text-align: center;
+        margin-top: 250px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight:bolder;
+    
+    }
+
+    .mick {
+      
+        margin-top: 50px;
+    }
+
+    .video-f1 {
+       text-align: center;
+        width: 310px;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+       
+        
+    }
+
+    .f1 {
+        
+        width: 300px;
+        margin-top: 20px;
+    
+    }
+
+    .ashleigh {
+        text-align: center;
+        margin-top: 850px;
+    }
+
+    .imagen-barty {
+        float: left;
+        width: 310px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        
+    
+    }
+
+    .barty {
+        
+        
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 0px;
+    }
+    
+    
+    .despedida-aramburu {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .imagen-aramburu {
+        
+        width: 310px;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .aramburu {
+        margin-top: 300px;
+        
+    }
+
+    /*seccion 2*/
+    
+
+    .contenedor-otras-noticias1 {
+        display: grid;
+        
+        height: 850px;
+        background-color: red;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        margin-top: 50px
+        
+        
+        
+    }
+    
+    .contenedor-otras-noticias-img {
+        
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0x;
+        justify-content: space-between;
+        width: 100px;
+        
+        
+    }
+    
+    .contenedor-otras-noticias-img img {
+        display: flex;
+        flex-direction: column;
+        
+        width: 250px;
+
+        height: 250px;
+        margin-top:  20px;
+        width: 400px;
+        border: solid black;
+        
+    }
+        
+    
+    .contenedor-otras-noticias-texto {
+        display: flex;
+
+        color: black;
+        text-align: left;
+        font-size: 20px;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    
+    }
+    
+    
+    
+    
+    .contenedor-otras-noticias-texto p {
+        display: flex;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-right: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+        
+    }
+    
+    
+    
+    .contenedor-otras-noticias2 {
+        
+        height: 450px;
+        background-color: red;
+        text-align: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 200px;
+        justify-content: space-between;
+        margin-top: 100px
+        
+        
+        
+        
+    }
+    
+    
+    .contenedor-otras-noticias-img-2 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-between;
+        margin-top: 500px;
+        
+        
+        
+    }
+    
+    
+    .contenedor-otras-noticias-img-2 img {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        width: 400px;
+        border: solid black;
+    
+        
+    }
+    
+    
+    .contenedor-otras-noticias-texto-2 {
+        display: flex;
+        color: black;
+        text-align: left;
+        font-size: 20px;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    
+    }
+    
+    
+    .contenedor-otras-noticias-texto-2 p {
+        display: flex;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding-right: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 100px;
+        
+    
+        
+    }
+
+
+
+
+
+
+
+    /*seccion 3*/
+
+    .tabla-de-posiciones {
+        
+        margin-left: 10px;
+        text-align: center;
+        
+    }
+
+    .tabla-de-posiciones-2 {
+        
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .h2-tabla {
+     
+        font-size: 60px;
+        
+        
+    }
+
+    /*seccion 4*/
+
+    
+    .h2-seccion2 {
+
+        margin-bottom: 0px;
+
+    }
+    
+    
+    .h2-seccion2-opinion {
+        border-style: none;
+        background-image: none;
+        margin-bottom: 0px;
+    
+    }
+    
+    form {
+      margin-left: 0px;
+        
+    }
+    
+    .text-area {
+        color: black;
+        background-color: red;
+        width: 310px;
+        border: solid black;
+        margin-top: 40px;
+        
+           
+    }
+    
+    .enlaces-redes ul li {
+        
+        display: flex;
+        flex-direction: row;
+        
+        font-family: 'Bebas Neue', cursive;
+        font-style: italic;
+        padding-bottom:  0px;
+        font-size: 25px;
+        
+        margin-left: 0px;
+        
+        
+        
+        
+    
+    
+    
+    }
+    
+    .enlaces-redes ul li a {
+        color: white;
+        
+    }
+    
+    
+    .enlaces-redes ul li :hover {
+    background-color: black;
+    
+    
+    }
+    
+    
+    
+    
+    .img-redes img {
+        width: 50px;
+        display: inline;
+        
+        margin-left: 190px;
+        padding-bottom: 30px;
+    }
+    
+  
+
+
+    /*seccion 5*/
+
+    .imagen-relleno img {
+        width: 310px;
+        margin-top: 20px;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .secciones li {
+            color: black;
+            font-family: 'Bebas Neue', cursive;
+            font-style: italic;
+            display: inline;
+            padding-left: 20px;
+            padding-right: 20px;
+        }     
+    
+    
+        .video-di-maria {
+            float: left;
+            width: 310px;
+            margin-right: 10px;
+            margin-left: 20px;
+            border: solid black;
+        } 
+        
+        p {
+            
+            margin-top: 50px;
+            font-size: 20px;
+            margin-right: 20px;
+            
+        
+        }
+
+        .video-f1 {
+            float: right;
+            width: 310px;
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-left: 20px;
+           
+            
+        }
+    
+        .f1 {
+            float: none;
+            width: 700px;
+            margin-top: 60px;
+        
+        }
+    
+        .ashleigh {
+            text-align: center;
+            margin-top: 50px;
+    }
+    
+        .imagen-barty {
+            float: none;
+            width: 310px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            
+    
+    }
+
+    .barty {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 700px;
+        float: none;
+        padding-left: 0px;
+    }
+
+    .despedida-aramburu {
+        text-align: center;
+        margin-top: 150px;
+    }
+    
+    .imagen-aramburu {
+        float: right;
+        width: 310px;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        margin-right: 20px;
+        border: solid black;
+    
+    }
+    .aramburu {
+        margin-top: 60px;
+        
+    }
+
+    /*seccion 2*/
+
+
+    /*seccion 3*/
+
+    .tabla-de-posiciones {
+       
+    
+        margin-left: 250px;
+        
+        
+        
+    }
+    
+    .tabla-de-posiciones-2 {
+       
+        margin-left: 250px;
+        
+        
+    }
+
+
+    /*seccion 4*/
+
+    .h2-seccion2-opinion {
+        border-style: none;
+        float: left;
+        background-image: none;
+        width: 300px
+    
+    }
+    
+    form {
+      margin-left: 350px;
+        
+    }
+    
+    .text-area {
+        color: black;
+        background-color: red;
+        width: 400px;
+        border: solid black;
+           
+    }
+
+    .enlaces-redes ul li {
+        
+        display: inline;
+        padding: 10px;
+        margin-left: 110px;
+        
+    }
+
+    .img-redes img {
+
+        margin-left: 150px;
+    }
+
+
+    @media screen and (min-width:1024px) {
+
+        *{
+    margin: 0;
+    padding: 0;
+}
+
+@media  screen and (min-width:1024px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    .secciones li {
+  
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:bolder;
+
+}
+
+
+.video-di-maria {
+    float: left;
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 20px;
+    border: solid black;
+} 
+
+.video-f1 {
+    float: right;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: solid black;
+    
+}
+
+.f1 {
+    float: left;
+    width: 500px;
+    margin-top: 0px;
+
+}
+
+.imagen-barty {
+    float: left;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: solid black;
+
+}
+
+.barty {
+    margin-top: 130px;
+    margin-left: 20px;
+   
+}
+
+.imagen-aramburu {
+    float: right;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    margin-right: 20px;
+    border: solid black;
+
+}
+
+.aramburu {
+    margin-top: 100px;
+    
+}
+
+.mick {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.ashleigh {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.despedida-aramburu {
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+
+
+button {
+    color: #FCD21D;
+    background-color: black;
+}
+
+
+/*seccion 3*/
+
+.tabla-de-posiciones {
+    color:  black;
+    background-color: white;
+    border:  black;
+    margin-left: 350px;
+    text-align: center;
+    
+}
+
+.tabla-de-posiciones-2 {
+    color: black;
+    background-color: white;
+    border: black;
+    margin-left: 350px;
+    text-align: center;
+    
+}
+
+.h2-tabla {
+    color: red;
+    border-style: none;
+    font-size: 80px;
+    background-image: none;
+    
+}
+
+.h2-primera-fase {
+    text-align: center;
+}
+
+.grupo-a {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.grupo-b {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*seccion4*/
+
+
+
+.h2-seccion2-opinion {
+    border-style: none;
+    float: left;
+    background-image: none;
+    width: 400px;
+    margin-top: 80px;
+
+}
+
+form {
+  margin-left: 500px;
+    
+}
+
+.text-area {
+    color: black;
+    background-color: red;
+    width: 500px;
+    border: solid black;
+       
+}
+
+.enlaces-redes ul li {
+    display: inline;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 120px;
+    
+    
+
+
+
+}
+
+.enlaces-redes ul li a {
+    color: white;
+}
+
+
+.enlaces-redes ul li :hover {
+background-color: black;
+
+
+}
+
+
+
+
+.img-redes img {
+    width: 80px;
+    display: inline;
+    
+    margin-left: 200px;
+}
+
+footer {
+ background-color: red;
+ border-style: solid;
+ border-color: black;
+}
+
+/*seccion2*/
+
+
+
+.contenedor {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.contenedor .noticias {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+.contenedor .noticias:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.contenedor .noticias img {
+    width: 330px;
+    height: 220px;
+
+}
+
+.contenedor .noticias h4 {
+    margin-top: 5px;
+    font-weight: 1000;
+}
+
+.contenedor .noticias p {
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    padding: 0 1rem
+}
+
+.contenedor .noticias a {
+    font-weight: 1000;
+    text-decoration: none;
+    color: #3498db;
+    
+}
+
+
+
+
+
+
+.imagen-relleno {
+    width: 310px;
+}
+
+
+    }
+
+
+    @media  screen and (min-width: 1440px) {
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        
+            
+        
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white
+        }
+        
+        header {
+            background-color: red;
+            background-position: center;
+            height: 200px;
+            box-shadow: 4px 4px 5px black;
+           
+            
+            
+        
+           
+        }
+        
+        
+        h1 {
+            color: white;
+            height: 25vh;
+            text-align: center;
+            font-family: 'Tinos', serif;
+            font-size: 100px;
+            text-shadow: 7px 5px 5px black;
+            height: 25vh;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-position: center;
+            background-size: 100px;
+            font-style: italic;
+            
+           
+            
+            
+          
+        }
+        
+        
+        
+        
+        
+        h2 {
+            font-family: 'Alfa Slab One', cursive;
+            border-style: solid;
+            padding: 8px;
+            font-weight: 100;
+            text-align: center;
+            margin-bottom: 50px;
+            color: black;
+            border-color: red;
+            margin-top: 50px;
+         
+            
+            
+        
+            
+        }
+        
+            .secciones li {
+            color: black;
+            font-family: 'Bebas Neue', cursive;
+            font-style: italic;
+            display: inline;
+            padding-left: 80px;
+            padding-right: 80px;
+            font-size: 25px;
+            
+            
+        }
+        
+        .secciones {
+            margin-top: 30px;
+            text-align: center;
+        }
+        
+        
+        nav .secciones li a {
+            color: black;
+        }
+        
+        
+        
+        
+        
+        
+        .secciones li:hover {
+          background-color: red;
+            
+        }
+        
+        p {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 80px;
+            font-size: 20px;
+            font-style: italic;
+            font-weight:bolder;
+        
+        }
+        
+        span {
+            color: red;
+        }
+        
+        .video-di-maria {
+            float: left;
+            width: 500px;
+            margin-right: 50px;
+            margin-left: 20px;
+            border: solid black;
+        } 
+        
+        .video-f1 {
+            float: right;
+            width: 500px;
+            margin-top: 50px;
+            margin-right: 20px;
+            border: solid black;
+            
+        }
+        
+        .f1 {
+            float: left;
+            width: 800px;
+            margin-top: 100px;
+        
+        }
+        
+        .imagen-barty {
+            float: left;
+            width: 500px;
+            margin-top: 50px;
+            margin-right: 150px;
+            margin-left: 20px;
+            border: solid black;
+        
+        }
+        
+        .barty {
+            margin-top: 130px;
+            margin-left: 100px;
+        }
+        
+        .imagen-aramburu {
+            float: right;
+            width: 500px;
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-bottom: 200px;
+            margin-right: 20px;
+            border: solid black;
+        
+        }
+        
+        .aramburu {
+            margin-top: 170px;
+            
+        }
+        
+        .mick {
+            text-align: center;
+            margin-top: 110px;
+        }
+        
+        .ashleigh {
+            text-align: center;
+            margin-top: 500px;
+        }
+        
+        .despedida-aramburu {
+            text-align: center;
+            margin-top: 150px;
+        }
+        
+        /*seccion 2*/
+
+        .contenedor-otras-noticias1 {
+            display: grid;
+            
+            height: 450px;
+            background-color: red;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            margin-top: 50px
+            
+            
+            
+        }
+        
+        .contenedor-otras-noticias-img {
+            grid-template-columns: 1fr 1 fr 1fr;
+            
+            padding-left: 50px;
+            padding-right: 50px;
+            justify-content: space-between;
+            
+            
+        }
+        
+        .contenedor-otras-noticias-img img {
+            width: 250px;
+            height: 250px;
+            margin-top:  20px;
+            width: 400px;
+            border: solid black;
+            
+        }
+            
+        
+        .contenedor-otras-noticias-texto {
+            display: flex;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        
+        }
+        
+        
+        
+        
+        .contenedor-otras-noticias-texto p {
+            display: flex;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-right: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+            
+        }
+        
+        
+        
+        .contenedor-otras-noticias2 {
+            
+            height: 450px;
+            background-color: red;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 200px;
+            justify-content: space-between;
+            margin-top: 100px
+            
+            
+            
+            
+        }
+        
+        
+        .contenedor-otras-noticias-img-2 {
+            display: flex;
+            padding-left: 50px;
+            padding-right: 50px;
+            justify-content: space-between;
+            
+            
+            
+        }
+        
+        
+        .contenedor-otras-noticias-img-2 img {
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+            width: 400px;
+            border: solid black;
+        
+            
+        }
+        
+        
+        .contenedor-otras-noticias-texto-2 {
+            display: flex;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        
+        }
+        
+        
+        .contenedor-otras-noticias-texto-2 p {
+            display: flex;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-right: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 100px;
+            
+        
+            
+        }
+    
+        
+        
+        
+        
+        button {
+            color: #FCD21D;
+            background-color: black;
+        }
+        
+        
+        /*seccion 3*/
+        
+        .tabla-de-posiciones {
+            color:  black;
+            background-color: white;
+            border:  black;
+            margin-left: 550px;
+            text-align: center;
+            
+        }
+        
+        .tabla-de-posiciones-2 {
+            color: black;
+            background-color: white;
+            border: black;
+            margin-left: 550px;
+            text-align: center;
+            
+        }
+        
+        .h2-tabla {
+            color: red;
+            border-style: none;
+            font-size: 80px;
+            background-image: none;
+            
+        }
+        
+        .h2-primera-fase {
+            text-align: center;
+        }
+        
+        .grupo-a {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .grupo-b {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        /*seccion4*/
+        
+        
+        
+        .h2-seccion2-opinion {
+            border-style: none;
+            float: left;
+            background-image: none;
+        
+        }
+        
+        form {
+          margin-left: 500px;
+            
+        }
+        
+        .text-area {
+            color: black;
+            background-color: red;
+            width: 900px;
+            border: solid black;
+               
+        }
+        
+        .enlaces-redes ul li {
+            display: inline;
+            font-family: 'Bebas Neue', cursive;
+            font-style: italic;
+            padding: 50px;
+            font-size: 25px;
+            text-align: center;
+            margin-left: 220px;
+            
+            
+        
+        
+        
+        }
+        
+        .enlaces-redes ul li a {
+            color: white;
+        }
+        
+        
+        .enlaces-redes ul li :hover {
+        background-color: black;
+        
+        
+        }
+        
+        
+        
+        
+        .img-redes img {
+            width: 100px;
+            display: inline;
+            
+            margin-left: 280px;
+        }
+        
+        footer {
+         background-color: red;
+         border-style: solid;
+         border-color: black;
+        }
+        
+        /*seccion2*/
+        
+        
+        
+        .contenedor-otras-noticias1 {
+            height: 450px;
+            background-color: red;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: space-between;
+            margin-top: 50px
+            
+            
+            
+        }
+        
+        .contenedor-otras-noticias-img {
+            display: flex;
+            padding-left: 50px;
+            padding-right: 50px;
+            justify-content: space-between;
+            
+            
+        }
+        
+        .contenedor-otras-noticias-img img {
+            width: 250px;
+            height: 250px;
+            margin-top:  20px;
+            width: 400px;
+            border: solid black;
+            
+        }
+            
+        
+        .contenedor-otras-noticias-texto {
+            display: flex;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        
+        }
+        
+        
+        
+        
+        .contenedor-otras-noticias-texto p {
+            display: flex;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-right: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+        
+            
+        }
+        
+        
+        
+        .contenedor-otras-noticias2 {
+            
+            height: 450px;
+            background-color: red;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 200px;
+            justify-content: space-between;
+            margin-top: 100px
+            
+            
+            
+            
+        }
+        
+        
+        .contenedor-otras-noticias-img-2 {
+            display: flex;
+            padding-left: 50px;
+            padding-right: 50px;
+            justify-content: space-between;
+            
+            
+            
+        }
+        
+        
+        .contenedor-otras-noticias-img-2 img {
+            width: 250px;
+            height: 250px;
+            margin-top: 10px;
+            width: 400px;
+            border: solid black;
+        
+            
+        }
+        
+        
+        .contenedor-otras-noticias-texto-2 {
+            display: flex;
+            color: black;
+            text-align: left;
+            font-size: 20px;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            
+        
+        }
+        
+        
+        .contenedor-otras-noticias-texto-2 p {
+            display: flex;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            padding-right: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 100px;
+            
+        
+            
+        }
+        
+        .imagen-relleno {
+            width: 310px;
+        }
+
+    }
+
+}
