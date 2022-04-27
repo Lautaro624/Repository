@@ -29,6 +29,7 @@ header {
 
 
 h1 {
+    display: flex;
     color: white;
     height: 25vh;
     text-align: center;
@@ -36,12 +37,13 @@ h1 {
     font-size: 100px;
     text-shadow: 7px 5px 5px black;
     height: 25vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     background-position: center;
     background-size: 100px;
     font-style: italic;
-    
+    align-items: center;
+    justify-content: center;
    
     
     
@@ -826,6 +828,14 @@ footer {
 
 
     @media screen and (min-width: 768px) {
+        
+        h1 {
+            font-size: 100px;
+        }
+        
+        
+        
+        
         .secciones li {
             color: black;
             font-family: 'Bebas Neue', cursive;
@@ -972,18 +982,20 @@ footer {
     }
 
 
-    @media screen and (min-width:1024px) {
-
-        *{
-    margin: 0;
-    padding: 0;
-}
-
+   
 @media  screen and (min-width:1024px) {
     
+
+
+h1 {
+    font-size: 80px;
 }
 
 
+h1:hover {
+    transform: scale(2);
+
+}
 
 
 
@@ -1285,12 +1297,11 @@ footer {
 
     @media  screen and (min-width: 1440px) {
         
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        
-        
+       h1 {
+           display: flex;
+           align-content: center;
+           justify-content: center;
+       }
             
         
         
@@ -1301,6 +1312,9 @@ footer {
         }
         
         header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
             background-color: red;
             background-position: center;
             height: 200px;
